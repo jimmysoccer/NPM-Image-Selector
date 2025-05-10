@@ -1,0 +1,18 @@
+{
+  "name": "@jimmysoccer/image-selector",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./src/image-selector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.13",
+    "@radix-ui/react-visually-hidden": "^1.2.2",
+    "lucide-react": "^0.509.0",
+    "react": "^19.1.0"
+  }
+}
