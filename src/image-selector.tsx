@@ -1,21 +1,7 @@
 import React, { useState } from 'react';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from './components/ui/carousel';
 import { AspectRatio } from './components/ui/aspect-ratio';
-import { Card, CardContent } from './components/ui/card';
-import {
-  Image,
-  GalleryHorizontal,
-  X,
-  ArrowLeft,
-  ArrowRight,
-} from 'lucide-react';
-import { Dialog, DialogClose, DialogDescription } from './components/ui/dialog';
+import { GalleryHorizontal, ArrowLeft, ArrowRight } from 'lucide-react';
+import { Dialog } from './components/ui/dialog';
 import { DialogContent } from '@radix-ui/react-dialog';
 import { DialogTitle } from '@radix-ui/react-dialog';
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
